@@ -22,7 +22,10 @@ export const metadata: Metadata = {
   openGraph: {
     title: "VYNXGEN | Full-stack web developer",
     description: "Темне преміальне портфоліо українською мовою.",
-    images: ["/images/hero-portfolio.png"]
+    images: ["/images/hero-portfolio.avif"]
+  },
+  other: {
+    "freelancehunt": "46fea771686bcb2"
   }
 };
 

@@ -47,7 +47,7 @@ export default function Home() {
         <section id="top" className="hero">
           <Image
             className="hero-image"
-            src="/images/hero-portfolio.png"
+            src="/images/hero-portfolio.avif"
             alt="Темний преміальний робочий стіл з ноутбуком"
             fill
             priority
@@ -72,6 +72,10 @@ export default function Home() {
                 <Github size={18} aria-hidden />
                 GitHub
               </a>
+              <a className="ghost-link freelancehunt-link" href="https://freelancehunt.com/freelancer/maximilandriyVYNX.html?from=shield&r=Jk3ax" target="_blank" rel="noopener noreferrer">
+                <span className="fh-icon">FH</span>
+                Freelancehunt
+              </a>
             </div>
           </div>
         </section>
@@ -89,7 +93,7 @@ export default function Home() {
               <span className="orbit orbit-left" />
               <span className="orbit orbit-right" />
               <div className="circle-image float-image">
-                <Image src="/images/about-studio.png" alt="Атмосферна студія розробника" fill sizes="320px" />
+                <Image src="/images/about-studio.avif" alt="Атмосферна студія розробника" fill sizes="320px" />
               </div>
               <strong className="label label-left">ЗРУЧНІСТЬ</strong>
               <strong className="label label-center">ГАРМОНІЯ</strong>
@@ -156,10 +160,16 @@ export default function Home() {
         <section id="contact" className="contact-section reveal">
           <h2>ГОТОВИЙ ДО НОВОГО ПРОЄКТУ</h2>
           <p>Напиши, якщо потрібен сайт, SaaS, кабінет, інтеграції або редизайн з акуратною анімацією.</p>
-          <a className="primary-link" href="https://t.me/maximilandriy" target="_blank" rel="noreferrer">
-            <Send size={18} aria-hidden />
-            @maximilandriy
-          </a>
+          <div className="contact-actions">
+            <a className="primary-link" href="https://t.me/maximilandriy" target="_blank" rel="noreferrer">
+              <Send size={18} aria-hidden />
+              @maximilandriy
+            </a>
+            <a className="ghost-link freelancehunt-link" href="https://freelancehunt.com/freelancer/maximilandriyVYNX.html?from=shield&r=Jk3ax" target="_blank" rel="noopener noreferrer">
+              <span className="fh-icon">FH</span>
+              Freelancehunt
+            </a>
+          </div>
         </section>
       </main>
     </PortfolioMotion>
